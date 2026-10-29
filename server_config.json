@@ -1,0 +1,104 @@
+{
+  "server_name": "VortexSMP",
+  "style": "clean and simple SMP",
+  "tagline": "Your world, your adventure.",
+  "roles": [
+    {
+      "name": "Owner",
+      "color": "#E74C3C",
+      "purpose": "Full control; assign only to the server owner."
+    },
+    {
+      "name": "Admin",
+      "color": "#E67E22",
+      "purpose": "Server management and serious moderation."
+    },
+    {
+      "name": "Moderator",
+      "color": "#3498DB",
+      "purpose": "Chat moderation and reports."
+    },
+    {
+      "name": "Support",
+      "color": "#2ECC71",
+      "purpose": "Player support and tickets."
+    },
+    {
+      "name": "Developer",
+      "color": "#9B59B6",
+      "purpose": "Technical work and Minecraft integration."
+    },
+    {
+      "name": "VIP",
+      "color": "#F1C40F",
+      "purpose": "Optional supporter rank."
+    },
+    {
+      "name": "Member",
+      "color": "#D6D6DE",
+      "purpose": "Regular community member."
+    },
+    {
+      "name": "Newcomer",
+      "color": "#92939F",
+      "purpose": "New or unverified member."
+    },
+    {
+      "name": "Muted",
+      "color": "#747580",
+      "purpose": "Restricted communication; configure per-channel send permissions."
+    }
+  ],
+  "categories": [
+    {
+      "name": "START HERE",
+      "channels": [
+        "welcome",
+        "announcements",
+        "server-info",
+        "rules"
+      ]
+    },
+    {
+      "name": "COMMUNITY",
+      "channels": [
+        "general",
+        "screenshots",
+        "trading",
+        "suggestions",
+        "giveaways"
+      ]
+    },
+    {
+      "name": "SUPPORT",
+      "channels": [
+        "help",
+        "open-a-ticket"
+      ]
+    },
+    {
+      "name": "STAFF ONLY",
+      "channels": [
+        "staff-chat",
+        "staff-logs",
+        "punishment-logs",
+        "ticket-transcripts"
+      ]
+    },
+    {
+      "name": "VOICE",
+      "channels": [
+        "General (voice)",
+        "Minecraft (voice)",
+        "AFK (voice)"
+      ]
+    }
+  ],
+  "placeholders_to_replace": [
+    "YOUR_SERVER_IP",
+    "YOUR_VERSION",
+    "[PRIZE]",
+    "[NUMBER]",
+    "[DATE AND TIME]"
+  ]
+}
